@@ -48,3 +48,10 @@ string[] fillingTheArray(string[] args, int arraySize)
     return myArray;
 }
 
+void PrintArray(string[] queryArray)
+{
+    for (int i = 0; i < queryArray.Length; i++)
+    {
+        Console.Write($"{queryArray[i]} ");
+    }
+}
