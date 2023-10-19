@@ -20,3 +20,12 @@ int targetArraySize(string[] args)
     }
     return Count;
 }
+
+bool Validation(int arraySize)
+{
+    if (arraySize != 0)
+    {
+        return true;
+    }
+    return false;
+}
