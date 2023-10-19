@@ -55,3 +55,18 @@ void PrintArray(string[] queryArray)
         Console.Write($"{queryArray[i]} ");
     }
 }
+
+//string[] Array = { "Hello", "2", "world", ":-)" };
+string[] Array = { "1234", "1567", "-2", "computer science"};
+//string[] Array = {"Russia", "Denmark", "Kazan"};
+
+int SizeArray = targetArraySize(Array);
+
+if (Validation(SizeArray))
+{
+    PrintArray(fillingTheArray(Array, SizeArray));
+}
+else
+{
+    Console.Write("'_'");
+}
