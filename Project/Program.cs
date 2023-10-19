@@ -28,4 +28,23 @@ bool Validation(int arraySize)
         return true;
     }
     return false;
+
 }
+
+string[] fillingTheArray(string[] args, int arraySize)
+{
+    string[] myArray = new string[arraySize];
+
+    int Count = 0;
+
+    for (int i = 0; i < args.Length; i++)
+    {
+        if (args[i].Length < 4)
+        {
+            myArray[Count] = args[i];
+            Count++;
+        }
+    }
+    return myArray;
+}
+
