@@ -56,8 +56,8 @@ void PrintArray(string[] queryArray)
     }
 }
 
-//string[] Array = { "Hello", "2", "world", ":-)" };
-string[] Array = { "1234", "1567", "-2", "computer science"};
+string[] Array = { "Hello", "2", "world", ":-)" };
+//string[] Array = { "1234", "1567", "-2", "computer science"};
 //string[] Array = {"Russia", "Denmark", "Kazan"};
 
 int SizeArray = targetArraySize(Array);
